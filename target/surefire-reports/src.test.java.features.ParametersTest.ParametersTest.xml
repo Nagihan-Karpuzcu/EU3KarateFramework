@@ -1,0 +1,37 @@
+<testsuite failures="0" name="src/test/java/features/ParametersTest/ParametersTest.feature" skipped="0" tests="2" time="2.231055">
+  <testcase classname="src.test.java.features.ParametersTest.ParametersTest" name="get ones spartan only" time="1.899807">
+    <system-out>* def baseUrl = 'https://api.exchangeratesapi.io' ......................... passed
+* def spartanUrl = 'http://52.55.102.92:8000' ............................. passed
+* def hrUrl = 'http://52.55.102.92:1000/ords/hr' .......................... passed
+Given url spartanUrl ...................................................... passed
+And path "api/spartans" ................................................... passed
+And path "10" ............................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response == { "gender": "Female", "phone": 3312820936, "name": "Lorenza", "id": 10} . passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.ParametersTest.ParametersTest" name="get ones spartan only" time="0.331248">
+    <system-out>* def baseUrl = 'https://api.exchangeratesapi.io' ......................... passed
+* def spartanUrl = 'http://52.55.102.92:8000' ............................. passed
+* def hrUrl = 'http://52.55.102.92:1000/ords/hr' .......................... passed
+Given url spartanUrl ...................................................... passed
+And path "api/spartans" ................................................... passed
+And path "10" ............................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response == { "gender": "Female", "phone": 3312820936, "name": "Lorenza", "id": 10} . passed
+* def baseUrl = 'https://api.exchangeratesapi.io' ......................... passed
+* def spartanUrl = 'http://52.55.102.92:8000' ............................. passed
+* def hrUrl = 'http://52.55.102.92:1000/ords/hr' .......................... passed
+* def expectedSpartan = ................................................... passed
+Given url spartanUrl ...................................................... passed
+And path "api/spartans" ................................................... passed
+And path "10" ............................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response == expectedSpartan ..................................... passed</system-out>
+  </testcase>
+</testsuite>

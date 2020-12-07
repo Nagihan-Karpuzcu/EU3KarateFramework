@@ -1,0 +1,80 @@
+22:35:29.762 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:35:31.267 request:
+1 > GET http://52.55.102.92:8000/api/spartans/10
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 52.55.102.92:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.5)
+
+22:35:31.633 response time in milliseconds: 359.96
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sun, 06 Dec 2020 22:35:32 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"id":10,"name":"Lorenza","gender":"Female","phone":3312820936}
+
+22:35:31.714 [print] {
+  "gender": "Female",
+  "phone": 3312820936,
+  "name": "Lorenza",
+  "id": 10
+}
+
+22:35:31.763 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:35:31.774 request:
+1 > GET http://52.55.102.92:8000/api/spartans/10
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 52.55.102.92:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.5)
+
+22:35:32.096 response time in milliseconds: 320.55
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sun, 06 Dec 2020 22:35:32 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"id":10,"name":"Lorenza","gender":"Female","phone":3312820936}
+
+22:35:32.097 [print] {
+  "gender": "Female",
+  "phone": 3312820936,
+  "name": "Lorenza",
+  "id": 10
+}
+
+ates":{"CAD":1.5633,"HKD":9.424,"ISK":152.1,"PHP":58.43,"DKK":7.4429,"HUF":358.57,"CZK":26.518,"AUD":1.6387,"RON":4.8725,"SEK":10.2578,"IDR":17222.37,"INR":89.6755,"BRL":6.2759,"RUB":90.0679,"HRK":7.5415,"JPY":126.44,"THB":36.672,"CHF":1.0822,"SGD":1.6206,"PLN":4.4769,"BGN":1.9558,"TRY":9.4636,"CNY":7.9421,"NOK":10.6598,"NZD":1.7254,"ZAR":18.4674,"USD":1.2159,"MXN":24.1091,"ILS":3.972,"GBP":0.90282,"KRW":1320.6,"MYR":4.9366},"base":"EUR","date":"2020-12-04"}
+
+22:24:56.313 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:24:56.327 request:
+1 > GET https://api.exchangeratesapi.io/2010-01-12
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.exchangeratesapi.io
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.5)
+
+22:24:57.411 response time in milliseconds: 1081.47
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3181
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5fd96b868d66f3f7-LHR
+1 < Cache-Control: max-age=1800
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sun, 06 Dec 2020 22:24:57 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Uq3ynMax5BNP%2F%2B%2BvJpJLDvlaT0G%2BYE%2FlJDl1NBZLMT%2FfCujCAKPH43xzjf4sGQmte1GGhHijhOJFRTzJyZmJKaDDj9sMMy%2FiYVJPMMhdlIkbufi89o2dGQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d23a1d8c070770f6c1e78d8d0327ef2e51607293497; expires=Tue, 05-Jan-21 22:24:57 GMT; path=/; domain=.exchangeratesapi.io; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < cf-request-id: 06dbc188120000f3f7c11eb000000001
+{"rates":{"CAD":1.4959,"HKD":11.2301,"LVL":0.7093,"PHP":66.106,"DKK":7.4405,"HUF":268.18,"CZK":26.258,"AUD":1.5668,"RON":4.1405,"SEK":10.2215,"IDR":13281.14,"INR":66.21,"BRL":2.5309,"RUB":42.6974,"LTL":3.4528,"JPY":132.41,"THB":47.839,"CHF":1.4743,"SGD":2.0133,"PLN":4.0838,"BGN":1.9558,"TRY":2.1084,"CNY":9.8863,"NOK":8.1825,"NZD":1.9573,"ZAR":10.8264,"USD":1.4481,"MXN":18.4995,"EEK":15.6466,"GBP":0.8972,"KRW":1627.4,"MYR":4.8424,"HRK":7.2753},"base":"EUR","date":"2010-01-12"}
+
